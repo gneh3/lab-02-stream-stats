@@ -7,7 +7,7 @@ name = "streamstats"
 version = "0.1.0"
 description = "Stream log file analyzer for CSV and JSONL"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     
 ]
@@ -17,8 +17,8 @@ streamstats = "streamstats.__main__:main"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
-testpaths = ["tests"]
+testpaths = ["src/tests"]
 
 [tool.ruff]
 line-length = 88
-target-version = "py310"
+target-version = "py311"

@@ -1,0 +1,8 @@
+{"timestamp": "2026-10-10T12:00:00", "level": "Info", "source": "auth", "message": "user logged in"}
+{"timestamp": "2026-10-10T12:05:00", "level": "Error", "source": "database", "message": "timeout"}
+{"timestamp": "2026-10-10T12:10:00", "level": "Critical", "source": "database", "message": "dead end"}
+{"timestamp": "invalid-time", "level": "Warning", "source": "api", "message": "it's to long"}
+{"timestamp": "2026-10-10T12:16:00", "level": "Info", "source": "", "message": "user out"}
+{"timestamp": "2026-10-10T12:17:00", "level": "undefined", "source": "database", "message": "timeout"}
+{"timestamp": "2026-10-10T12:18:00", "level": "Critical", "source": "database", "message": "dead end"}
+{"timestamp": "2026-10-10T12:19:00", "level": "Warning", "source": "api", "message": "it's too long"}
